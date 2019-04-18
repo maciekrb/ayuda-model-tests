@@ -12,7 +12,7 @@ version = "0.0.1"
 # 'Development Status :: 4 - Beta'
 # 'Development Status :: 5 - Production/Stable'
 release_status = "Development Status :: 3 - Alpha"
-dependencies = ["pydantic>=0.21"]
+dependencies = ["pydantic>=0.21", "pytest>=4.4.1", "pytest-cov>=2.6.1"]
 extras = {"test": ["coverage", "pytest", "pytest-cov"]}
 
 # Boilerplate below this line
